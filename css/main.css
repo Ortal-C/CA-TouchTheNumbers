@@ -1,0 +1,55 @@
+div {
+	text-align: center;
+	margin: auto;
+	display: table;
+}
+
+.btn {
+	color: white;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: 150px;
+  margin: 10px;
+}
+.btn:hover {
+  background-color: #146C2D;
+}
+
+.main-content {
+	display: table;
+    margin-top: 30px;
+}
+
+.cell {
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: Arial;
+	line-height: 2.5;
+	background: linear-gradient(to bottom right, #2ea44f, #146C2D);
+	border: 0;
+	border-radius: 12px;
+	width: 20px;
+	height: 40px;
+	padding: 0 1rem;
+	text-align: center;
+	margin: 5px;
+}
+
+.strech-item{
+	width: 250px;
+}
+
+.hide {
+	display: none;
+}

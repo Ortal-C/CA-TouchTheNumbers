@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Touch the Numbers 👆</title>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body onload="init()">
+		<div class="header">
+			<div><img src="img/header.JPG" /></div>
+			<div>
+				<button class="btn instructions" onclick="showInstructions()">Instructions 📄</button>
+				<button class="btn start-btn" onclick="playGame()">Start Game ▶</button>
+				<button class="btn timer"></button>
+			</div>
+		</div>
+		<!---------------------------------------------------------------->
+		<div class="main-content">
+			<div>
+				<hr />
+				<table class="board"></table>
+			</div>
+			<div class="congrats">
+				<hr />
+				<table>
+					<tr>
+						<td><img class="congrats-img" src="img/congrats.JPG" /></td>
+						<td><button class="btn clicks-count strech-item"></button></td>
+						<td><img class="congrats-img" src="img/congrats.JPG" /></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!---------------------------------------------------------------->
+		<script src="js/main.js"></script>
+		<script src="js/util.js"></script>
+	</body>
+</html>
